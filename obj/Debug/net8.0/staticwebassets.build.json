@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PtQyqS5kFLiK9qg1jWjsV6uC1h1/NL2xKuGIe8uKdSk=",
+  "Source": "CsvImporter",
+  "BasePath": "_content/CsvImporter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
