@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\coding-test\\ehrlich\\CsvImporter\\CsvImporter.csproj": {}
+    "e:\\coding-test\\ehrlich\\CsvImporter\\CsvImporter.csproj": {}
   },
   "projects": {
-    "E:\\coding-test\\ehrlich\\CsvImporter\\CsvImporter.csproj": {
+    "e:\\coding-test\\ehrlich\\CsvImporter\\CsvImporter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\coding-test\\ehrlich\\CsvImporter\\CsvImporter.csproj",
+        "projectUniqueName": "e:\\coding-test\\ehrlich\\CsvImporter\\CsvImporter.csproj",
         "projectName": "CsvImporter",
-        "projectPath": "E:\\coding-test\\ehrlich\\CsvImporter\\CsvImporter.csproj",
+        "projectPath": "e:\\coding-test\\ehrlich\\CsvImporter\\CsvImporter.csproj",
         "packagesPath": "C:\\Users\\Alvan-Cathei\\.nuget\\packages\\",
-        "outputPath": "E:\\coding-test\\ehrlich\\CsvImporter\\obj\\",
+        "outputPath": "e:\\coding-test\\ehrlich\\CsvImporter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alvan-Cathei\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,13 +43,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.ResponseCompression": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Data.Sqlite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
             }
           },
           "imports": [
