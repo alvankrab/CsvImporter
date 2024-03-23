@@ -1,4 +1,5 @@
 using CsvImporter.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CsvImporter.Services;
 
@@ -8,4 +9,6 @@ namespace CsvImporter.Services;
 public interface IOrderDetailsService
 {
     Task<IEnumerable<OrderDetails>> GetOrderDetailsAsync(int limit = 100, int offset = 0);
+
+    Task<string> UploadOrdersData(IFormFile file);
 }

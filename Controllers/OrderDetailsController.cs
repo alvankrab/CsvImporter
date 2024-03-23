@@ -1,4 +1,3 @@
-using System.Runtime.InteropServices;
 using CsvImporter.Models;
 using CsvImporter.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +21,23 @@ public class OrderDetailsController : ControllerBase
     {
         var orderDetails = await _service.GetOrderDetailsAsync(limit, offset);
         return Ok(orderDetails);
+    }
+
+    [HttpPost(Name = "UploadOrderDetails")]
+    public async Task<IActionResult> Upload(IFormFile file)
+    {
+        if (file == null || file.Length == 0)
+        {
+            return BadRequest("No file uploaded");
+        }
+
+        try {
+            await _service.UploadOrdersData(file);
+            return Ok("File uploaded successfully");
+        } catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 
 }

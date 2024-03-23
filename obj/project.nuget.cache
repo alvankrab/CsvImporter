@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KCRHZwIKQB3lD7ELddlkMG1i614XZSERzDDEOAPkie2Y18UW+7QZc8N7ZWb+1aOKw1Mu/gWDoPzs1d7TcvH+aA==",
+  "dgSpecHash": "N7BLEn6Tq11pGmhiAqE56YmK21udORWj2s/flCz+sQo3PWrb84qTKVilZbmUOXgp5aAKyOIr+5MMZk4ebwxGzA==",
   "success": true,
   "projectFilePath": "e:\\coding-test\\ehrlich\\CsvImporter\\CsvImporter.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Alvan-Cathei\\.nuget\\packages\\csvhelper\\31.0.2\\csvhelper.31.0.2.nupkg.sha512",
     "C:\\Users\\Alvan-Cathei\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Alvan-Cathei\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Alvan-Cathei\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
