@@ -17,7 +17,7 @@ public class OrderDetailsRepository : IOrderDetailsRepository
 
     public async Task<IEnumerable<OrderDetails>> GetOrderDetailsAsync(int limit = 100, int offset = 0)
     {
-        return await _context.OrderDetails.Skip(offset).Take(100).ToListAsync();
+        return await _context.OrderDetails.Skip(offset).Take(limit).ToListAsync();
     }
 
     public async Task<string> SaveMultipleOrdersAsync(IEnumerable<OrderDetails> orders)
